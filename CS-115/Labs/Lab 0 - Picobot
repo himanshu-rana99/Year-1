@@ -1,0 +1,37 @@
+# Himansnhu Rana 
+# I pledge my honor that I have abided by the rules of the Stevens Honor System. 
+
+map1 
+0 *X** -> E 0
+0 *E** -> X 1
+
+1 ***X -> S 1
+1 ***S -> N 2
+
+2 X*** -> N 2
+2 N*** -> W 3
+
+3 ***X -> S 3
+3 ***S -> W 1
+
+
+map2 
+0 N*X* -> W 0
+0 X*** -> N 1
+0 N*WX -> S 2
+0 NXWS -> E 3
+
+1 NEX* -> W 0
+1 XE** -> N 1
+1 NEWX -> S 2
+1 *X** -> E 3
+
+2 **X* -> W 0
+2 XEWS -> N 1
+2 **WX -> S 2
+2 *XWS -> E 3
+
+3 NEXS -> W 0
+3 XE*S -> N 1
+3 ***X -> S 2
+3 *X*S -> E 3

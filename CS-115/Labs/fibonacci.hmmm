@@ -1,0 +1,18 @@
+# fibonacci.hmmm
+# hrana2 - Himanshu Rana  
+# Date: 10/27/17
+# "I pledge my honor that I have abided by the Stevens Honor System"
+# prints the given nth term of fibonacci sequence 
+
+
+0	read r1		# gets the number n from the user 
+1	setn r2 0 	# sets the value of 0 into r2 
+2	setn r3 1 	# sets the value of 1 into r3 
+3	jeqzn r1 10	# if r1 equals 0 then the program will jump to line 10 
+4	write r2 	# echo the value of r2 
+5	copy r4 r2	# copy the value of r2 into r4
+6 	copy r2 r3	# copies the value of r3 into r2 
+7	add r3 r3 r4	# adds r3 and r4 and putting it back into r3
+8	addn r1 -1	# subtracts -1 from the value of r1 
+9	jumpn 3 	# loops back to line 3 of the program 
+10	halt 		# stops running the program 
